@@ -107,7 +107,7 @@ Navigate to `http://localhost:4000` and submit the contact form.
 
 ## 📧 Contact  
 👨‍💻 **Rakesh Raj S.**  
-🌐 [GitHub](https://github.com/Rakesh12531) | 💼 LinkedIn | 📩 Email  
+🌐 [GitHub](https://github.com/Rakesh12531) | 💼 [LinkedIn](https://www.linkedin.com/in/rakesh531/) | 📩 [Email](mailto:rakeshraj12531@gmail.com)  
 
 ---
 
