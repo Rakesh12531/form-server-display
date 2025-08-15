@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display form details in server</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Contact Form</h2>
+        <form action="/submit" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email" required>
+            <input type="number" name="age" placeholder="Age" required>
+            <input type="date" name="dob" placeholder="Date of Birth">
+            
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" value="Male" required> Male
+            <input type="radio" name="gender" value="Female"> Female
+            <input type="radio" name="gender" value="Other"> Other
+            <br>
+
+            <label>Hobbies:</label><br>
+            <input type="checkbox" name="hobbies" value="Reading"> Reading
+            <input type="checkbox" name="hobbies" value="Sports"> Sports
+            <input type="checkbox" name="hobbies" value="Music"> Music
+            <br>
+
+            <label>Country:</label>
+            <select name="country" required>
+                <option value="">Select Country</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <textarea name="message" placeholder="Your Message" rows="4"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
